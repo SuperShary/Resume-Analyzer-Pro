@@ -110,7 +110,8 @@ export default {
 			},
 			fontFamily: {
 				sans: ['Inter var', 'sans-serif'],
-				mono: ['SF Mono', 'monospace']
+				mono: ['SF Mono', 'monospace'],
+				playfair: ['Playfair Display', 'serif']
 			},
 			transitionProperty: {
 				'height': 'height',
