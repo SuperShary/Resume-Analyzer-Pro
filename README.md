@@ -1,26 +1,27 @@
-# Welcome to your Lovable project
+# 📌 Resume Analyzer Pro
 
-## Project info
+**Resume Analyzer Pro** is an AI-powered tool that analyzes resumes, extracts key skills, and matches them with job descriptions to improve **ATS (Applicant Tracking System) compatibility**.
 
-**URL**: https://lovable.dev/projects/239d4fd1-9fcb-4482-af7b-dd831e17b4d4
+🔗 **Live Project:** [Resume Analyzer Pro](https://preview--resume-matching-maven.lovable.app)
 
-## How can I edit this code?
 
-There are several ways of editing your application.
+## 🚀 Features  
+✅ **Resume Parsing & Analysis** – Extracts key skills from resumes.  
+✅ **Job Matching** – Compares resumes with job descriptions and provides a match score.  
+✅ **ATS Optimization** – Suggests improvements to make resumes ATS-friendly.  
+✅ **Structured Feedback** – Provides actionable suggestions for better alignment.  
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/239d4fd1-9fcb-4482-af7b-dd831e17b4d4) and start prompting.
+## 🛠️ Tech Stack  
+- **Backend:** OpenRouter API (DeepSeek)  
+- **Frontend:** Lovable.dev (No-Code AI Tool Generator)  
+- **API Model:** `deepseek-chat`  
+- **Deployment:** Web-based AI tool  
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+## 📦 Installation & Setup
 
 ```sh
 # Step 1: Clone the repository using the project's Git URL.
@@ -60,10 +61,3 @@ This project is built with .
 - shadcn-ui
 - Tailwind CSS
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/239d4fd1-9fcb-4482-af7b-dd831e17b4d4) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
