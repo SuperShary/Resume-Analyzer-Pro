@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
@@ -83,12 +82,12 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-background to-muted/30 py-12 px-4 md:px-6">
       <div className="max-w-7xl mx-auto">
-        {/* Header with beautiful design */}
+        {/* Header with improved title styling */}
         <div className="text-center mb-16 appear-animation">
-          <div className="inline-block px-3 py-1 rounded-full bg-secondary/20 text-xs font-medium text-secondary-foreground mb-3">
+          <div className="inline-block px-4 py-2 rounded-full bg-secondary/30 text-sm font-bold text-secondary mb-4 transform hover:scale-105 transition-all">
             Resume Analyzer Pro
           </div>
-          <h1 className="beautiful-heading text-5xl md:text-6xl lg:text-7xl mb-6 leading-tight">
+          <h1 className="beautiful-heading text-5xl md:text-6xl lg:text-7xl mb-6 leading-tight drop-shadow-lg">
             Resume Match
           </h1>
           <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
